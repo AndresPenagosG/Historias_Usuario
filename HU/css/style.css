@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg,#d1d1d1, #4fbd79);
+}
+
+.Contenedor{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+.Contenedor .titulo{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.Contenedor .titulo::before{
+    content: "";
+    position: absolute;
+    left:  0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #4fbd79, rgb(48, 226, 48));
+}
+
+.Contenedor form .user-detalles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-detalles .input-caja{
+    margin-bottom: 15px;
+    width: calc(100% / 2- 20px);
+}
+
+.user-detalles .input-caja .detalles{
+ transform: scale(1.5);   
+ display: block;
+ font-weight: 500;
+ margin-bottom: 5px;
+}
+
+.user-detalles .input-caja input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+form .gender-detalles .gender-titulo{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-detalles .categoria{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+
+.gender-detalles .categoria .dot{
+    height: 18px;
+    width: 18px;
+    background: #4fbd79;
+    border-radius: 50%;
+}
