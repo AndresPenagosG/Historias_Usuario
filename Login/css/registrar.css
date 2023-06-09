@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg,#ffffff, #00ff6a);
+}
+
+.Contenedor {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #0e0101;
+    border-radius: 5px;
+  }
+  
+ 
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: century Gothic;
+  }
+  
+ 
+  .detalles {
+    font-weight: bold;
+    font-family:century Gothic;
+  }
+  
+ 
+  .Input-caja {
+    margin-bottom: 10px;
+    border-color: black ;
+    border-width: 3px;
+    border: solid black;
+    margin-left: -5px;
+    font-family: century Gothic;
+  }
+
+
+  
+
+  .gender-titulo {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: century Gothic;
+  }
+  
+
+  .gender {
+    margin-left: 5px;
+    font-family: century Gothic;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+ 
+  .button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+ 
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: century Gothic;
+  }
+  
+
+  input[required] {
+    border-color: rgb(20, 9, 9);
+    border-width: 3px;
+    border-style: solid black;
+  }
+  

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(136, 218, 160);
+    font-family: open Sans, sans-serif;
+}
+
+h1{
+     text-align: center;
+     padding: 20px;
+     color: white;
+
+}
+
+.conteiner{
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background: white;
+
+}
+
+h2{
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.correo{
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: solid #222 2px;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+
+}
+
+.correo:focus{
+    border-bottom: solid green 1px;
+}
+
+.form_button{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.salir{
+    text-decoration: none;
+    background: red;
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.salir:hover{
+    background: rgb(148, 6, 6);
+}
+
+.enviar{
+    background: rgb(71, 184, 71);
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background: green;
+}

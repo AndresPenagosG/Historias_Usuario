@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+  <title>Formulario de Álbum</title>
+  <link rel="stylesheet" type="text/css" href="../Registrar_album/css/registro_album.css.css">
+
+ </head>
+
+ <body>
+  <h1>Formulario de Álbum</h1>
+
+  <form name="albumForm" method="POST" action="procesar_formulario.php">
+
+    <label for="nombreAlbum">Nombre del álbum:</label>
+    <input type="text" id="nombreAlbum" name="nombreAlbum" required>
+
+    <label for="nombreAutor">Nombre del autor o agrupación:</label>
+    <input type="text" id="nombreAutor" name="nombreAutor" required>
+
+    <label for="fechaLanzamiento">Fecha de lanzamiento:</label>
+    <input type="date" id="fechaLanzamiento" name="fechaLanzamiento" required>
+
+    <label for="medioGrabacion">Medio donde fue grabado:</label>
+
+    <select id="medioGrabacion" name="medioGrabacion" required>
+
+      <option value="vinilo">Vinilo</option>
+      <option value="cds">CDs</option>
+      <option value="caseds">Casete</option>
+
+    </select>
+
+    <label for="descripcionAlbum">Descripción del álbum:</label>
+    <textarea id="descripcionAlbum" name="descripcionAlbum" rows="4" cols="50" required></textarea>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+
+ </body>
+
+</html>
